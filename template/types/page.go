@@ -7,12 +7,12 @@ package types
 import (
 	"bytes"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/menu"
+	"github.com/wowucco/go-admin/modules/system"
+	"github.com/wowucco/go-admin/modules/utils"
+	"github.com/wowucco/go-admin/plugins/admin/models"
 	"html/template"
 	"strconv"
 )

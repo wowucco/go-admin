@@ -7,8 +7,8 @@ package db
 import (
 	"database/sql"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/service"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/service"
 	"strings"
 )
 

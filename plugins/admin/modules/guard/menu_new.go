@@ -1,10 +1,10 @@
 package guard
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/errors"
+	"github.com/wowucco/go-admin/plugins/admin/modules/form"
 	"html/template"
 	"strconv"
 )

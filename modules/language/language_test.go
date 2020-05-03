@@ -1,7 +1,7 @@
 package language
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/config"
 	"github.com/stretchr/testify/assert"
 	"html/template"
 	"testing"

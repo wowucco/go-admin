@@ -1,8 +1,8 @@
 package buffalo
 
 import (
-	"github.com/GoAdminGroup/go-admin/tests/common"
 	"github.com/gavv/httpexpect"
+	"github.com/wowucco/go-admin/tests/common"
 	"net/http"
 	"testing"
 )

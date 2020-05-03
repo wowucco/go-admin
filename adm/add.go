@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/db"
+	"github.com/wowucco/go-admin/modules/db/dialect"
 	"gopkg.in/ini.v1"
 	"runtime"
 	"strings"

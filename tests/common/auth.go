@@ -2,8 +2,8 @@ package common
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/config"
 	"github.com/gavv/httpexpect"
 	"net/http"
 )

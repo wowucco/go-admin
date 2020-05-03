@@ -2,9 +2,9 @@ package components
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/template/icon"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/template/icon"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 )
 

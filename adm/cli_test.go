@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/wowucco/go-admin/modules/system"
 	"github.com/magiconair/properties/assert"
 	"path"
 	"testing"

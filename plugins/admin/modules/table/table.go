@@ -1,13 +1,13 @@
 package table
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/paginator"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/parameter"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/db"
+	"github.com/wowucco/go-admin/modules/service"
+	"github.com/wowucco/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/plugins/admin/modules/paginator"
+	"github.com/wowucco/go-admin/plugins/admin/modules/parameter"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 	"sync"
 	"sync/atomic"

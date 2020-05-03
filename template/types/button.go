@@ -1,8 +1,8 @@
 package types
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
+	"github.com/wowucco/go-admin/modules/utils"
+	"github.com/wowucco/go-admin/plugins/admin/models"
 	"html/template"
 	"net/url"
 )

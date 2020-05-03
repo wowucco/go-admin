@@ -1,8 +1,8 @@
 package tests
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/tests/frameworks/gin"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/tests/frameworks/gin"
 	"testing"
 )
 

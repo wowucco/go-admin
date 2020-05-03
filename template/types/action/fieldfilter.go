@@ -1,8 +1,8 @@
 package action
 
 import (
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 )
 

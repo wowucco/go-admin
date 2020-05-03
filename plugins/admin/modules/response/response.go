@@ -1,15 +1,15 @@
 package response
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/db"
+	"github.com/wowucco/go-admin/modules/errors"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/modules/menu"
+	"github.com/wowucco/go-admin/template"
+	"github.com/wowucco/go-admin/template/types"
 	"net/http"
 )
 

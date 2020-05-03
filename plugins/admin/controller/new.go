@@ -2,13 +2,13 @@ package controller
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/file"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/file"
+	"github.com/wowucco/go-admin/plugins/admin/modules/constant"
+	form2 "github.com/wowucco/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/plugins/admin/modules/guard"
+	"github.com/wowucco/go-admin/template/types"
 	template2 "html/template"
 	"net/http"
 )

@@ -2,11 +2,11 @@ package components
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	form2 "github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
-	"github.com/GoAdminGroup/go-admin/template/types"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/language"
+	form2 "github.com/wowucco/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/template/types"
+	"github.com/wowucco/go-admin/template/types/form"
 	"html/template"
 	"strings"
 )

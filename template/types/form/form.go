@@ -1,7 +1,7 @@
 package form
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/db"
+	"github.com/wowucco/go-admin/modules/db"
 	"html/template"
 )
 

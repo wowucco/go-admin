@@ -1,9 +1,9 @@
 package guard
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/table"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/errors"
+	"github.com/wowucco/go-admin/plugins/admin/modules/table"
 	"strings"
 )
 

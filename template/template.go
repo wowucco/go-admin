@@ -14,16 +14,16 @@ import (
 	"strings"
 	"sync"
 
-	c "github.com/GoAdminGroup/go-admin/modules/config"
-	e "github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	"github.com/GoAdminGroup/go-admin/modules/menu"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/models"
-	"github.com/GoAdminGroup/go-admin/template/login"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	c "github.com/wowucco/go-admin/modules/config"
+	e "github.com/wowucco/go-admin/modules/errors"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/modules/logger"
+	"github.com/wowucco/go-admin/modules/menu"
+	"github.com/wowucco/go-admin/modules/system"
+	"github.com/wowucco/go-admin/modules/utils"
+	"github.com/wowucco/go-admin/plugins/admin/models"
+	"github.com/wowucco/go-admin/template/login"
+	"github.com/wowucco/go-admin/template/types"
 )
 
 // Template is the interface which contains methods of ui components.
@@ -207,8 +207,8 @@ type Component interface {
 	// {{.UrlPrefix}}/assets/login/css/bootstrap.min.css => login/css/bootstrap.min.css
 	//
 	// See:
-	// https://github.com/GoAdminGroup/go-admin/blob/master/template/login/theme1.tmpl#L32
-	// https://github.com/GoAdminGroup/go-admin/blob/master/template/login/list.go
+	// https://github.com/wowucco/go-admin/blob/master/template/login/theme1.tmpl#L32
+	// https://github.com/wowucco/go-admin/blob/master/template/login/list.go
 	GetAssetList() []string
 
 	// GetAsset return the asset content according to the corresponding url suffix.

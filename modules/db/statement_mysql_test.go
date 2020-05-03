@@ -2,7 +2,7 @@ package db
 
 import (
 	"fmt"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/mysql"
 	"os/exec"
 	"testing"
 )

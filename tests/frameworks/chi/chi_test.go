@@ -1,7 +1,7 @@
 package chi
 
 import (
-	"github.com/GoAdminGroup/go-admin/tests/common"
+	"github.com/wowucco/go-admin/tests/common"
 	"github.com/gavv/httpexpect"
 	"net/http"
 	"testing"

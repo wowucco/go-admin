@@ -9,7 +9,7 @@ import (
 	"encoding/json"
 	"errors"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/constant"
+	"github.com/wowucco/go-admin/modules/constant"
 	"io"
 	"io/ioutil"
 	"math"

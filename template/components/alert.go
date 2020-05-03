@@ -1,9 +1,9 @@
 package components
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/errors"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/modules/errors"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 )
 

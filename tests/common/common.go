@@ -2,7 +2,7 @@ package common
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/form"
+	"github.com/wowucco/go-admin/plugins/admin/modules/form"
 	"github.com/gavv/httpexpect"
 	"github.com/mgutz/ansi"
 	"regexp"

@@ -2,8 +2,8 @@ package models
 
 import (
 	"encoding/json"
-	"github.com/GoAdminGroup/go-admin/modules/db"
-	"github.com/GoAdminGroup/go-admin/modules/db/dialect"
+	"github.com/wowucco/go-admin/modules/db"
+	"github.com/wowucco/go-admin/modules/db/dialect"
 	"strconv"
 	"time"
 )

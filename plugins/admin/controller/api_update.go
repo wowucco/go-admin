@@ -1,14 +1,14 @@
 package controller
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/file"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/guard"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
-	"github.com/GoAdminGroup/go-admin/template/types/form"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/file"
+	"github.com/wowucco/go-admin/plugins/admin/modules"
+	"github.com/wowucco/go-admin/plugins/admin/modules/constant"
+	"github.com/wowucco/go-admin/plugins/admin/modules/guard"
+	"github.com/wowucco/go-admin/plugins/admin/modules/response"
+	"github.com/wowucco/go-admin/template/types/form"
 	"net/url"
 )
 

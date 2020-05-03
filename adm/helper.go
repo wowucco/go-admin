@@ -3,14 +3,14 @@ package main
 import (
 	"errors"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/utils"
+	"github.com/wowucco/go-admin/modules/utils"
 	"github.com/mgutz/ansi"
 	"io/ioutil"
 	"net/http"
 	"strings"
 	"time"
 
-	"github.com/GoAdminGroup/go-admin/modules/system"
+	"github.com/wowucco/go-admin/modules/system"
 )
 
 func cliInfo() {

@@ -5,7 +5,7 @@
 package file
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/config"
 	"mime/multipart"
 )
 

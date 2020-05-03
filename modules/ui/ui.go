@@ -1,8 +1,8 @@
 package ui
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/service"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/modules/service"
+	"github.com/wowucco/go-admin/template/types"
 )
 
 type Service struct {

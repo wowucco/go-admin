@@ -2,10 +2,10 @@ package action
 
 import (
 	"encoding/json"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/constant"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 )
 

@@ -5,7 +5,7 @@
 package language
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
+	"github.com/wowucco/go-admin/modules/config"
 	"golang.org/x/text/language"
 	"html/template"
 	"strings"

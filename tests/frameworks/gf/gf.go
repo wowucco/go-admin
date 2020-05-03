@@ -2,23 +2,23 @@ package gf
 
 import (
 	// add gf adapter
-	_ "github.com/GoAdminGroup/go-admin/adapter/gf"
+	_ "github.com/wowucco/go-admin/adapter/gf"
 	// add mysql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mysql"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/mysql"
 	// add postgresql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/postgres"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/postgres"
 	// add sqlite driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/sqlite"
 	// add mssql driver
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/mssql"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/mssql"
 	// add adminlte ui theme
 	_ "github.com/GoAdminGroup/themes/adminlte"
 
-	"github.com/GoAdminGroup/go-admin/engine"
-	"github.com/GoAdminGroup/go-admin/plugins/admin"
-	"github.com/GoAdminGroup/go-admin/template"
-	"github.com/GoAdminGroup/go-admin/template/chartjs"
-	"github.com/GoAdminGroup/go-admin/tests/tables"
+	"github.com/wowucco/go-admin/engine"
+	"github.com/wowucco/go-admin/plugins/admin"
+	"github.com/wowucco/go-admin/template"
+	"github.com/wowucco/go-admin/template/chartjs"
+	"github.com/wowucco/go-admin/tests/tables"
 	"github.com/gogf/gf/frame/g"
 	"github.com/gogf/gf/net/ghttp"
 	"net/http"

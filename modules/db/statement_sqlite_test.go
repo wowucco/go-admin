@@ -1,8 +1,8 @@
 package db
 
 import (
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	_ "github.com/GoAdminGroup/go-admin/modules/db/drivers/sqlite"
+	"github.com/wowucco/go-admin/modules/config"
+	_ "github.com/wowucco/go-admin/modules/db/drivers/sqlite"
 	"testing"
 )
 

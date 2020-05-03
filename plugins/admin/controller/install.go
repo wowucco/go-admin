@@ -3,8 +3,8 @@ package controller
 import (
 	"bytes"
 	"database/sql"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/plugins/admin/modules/response"
 	"net/http"
 )
 

@@ -1,9 +1,9 @@
 package action
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/constant"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 )
 

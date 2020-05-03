@@ -3,8 +3,8 @@ package chartjs
 import (
 	"bytes"
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/modules/logger"
-	template2 "github.com/GoAdminGroup/go-admin/template"
+	"github.com/wowucco/go-admin/modules/logger"
+	template2 "github.com/wowucco/go-admin/template"
 	"html/template"
 )
 

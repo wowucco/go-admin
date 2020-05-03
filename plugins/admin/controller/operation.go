@@ -1,10 +1,10 @@
 package controller
 
 import (
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/config"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/constant"
-	"github.com/GoAdminGroup/go-admin/plugins/admin/modules/response"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/config"
+	"github.com/wowucco/go-admin/plugins/admin/modules/constant"
+	"github.com/wowucco/go-admin/plugins/admin/modules/response"
 )
 
 func (h *Handler) Operation(ctx *context.Context) {

@@ -3,7 +3,7 @@ package components
 import (
 	"bytes"
 	"fmt"
-	template2 "github.com/GoAdminGroup/go-admin/template"
+	template2 "github.com/wowucco/go-admin/template"
 	"html/template"
 	"strings"
 )

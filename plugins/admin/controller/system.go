@@ -2,11 +2,11 @@ package controller
 
 import (
 	"fmt"
-	"github.com/GoAdminGroup/go-admin/context"
-	"github.com/GoAdminGroup/go-admin/modules/auth"
-	"github.com/GoAdminGroup/go-admin/modules/language"
-	"github.com/GoAdminGroup/go-admin/modules/system"
-	"github.com/GoAdminGroup/go-admin/template/types"
+	"github.com/wowucco/go-admin/context"
+	"github.com/wowucco/go-admin/modules/auth"
+	"github.com/wowucco/go-admin/modules/language"
+	"github.com/wowucco/go-admin/modules/system"
+	"github.com/wowucco/go-admin/template/types"
 	"html/template"
 	"os"
 	"runtime"
