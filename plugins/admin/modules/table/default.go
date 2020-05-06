@@ -759,6 +759,8 @@ func (tb DefaultTable) UpdateData(dataList form.Values) error {
 // InsertData insert data.
 func (tb DefaultTable) InsertData(dataList form.Values) error {
 
+	logger.Debug("InsertData", dataList)
+
 	dataList.Add(form.PostTypeKey, "1")
 
 	var (
@@ -821,6 +823,8 @@ func (tb DefaultTable) InsertData(dataList form.Values) error {
 
 func (tb DefaultTable) getInjectValueFromFormValue(dataList form.Values) dialect.H {
 
+	logger.Debug("getInjectValueFromFormValue start", dataList)
+
 	var (
 		value        = make(dialect.H)
 		exceptString = make([]string, 0)
@@ -882,6 +886,9 @@ func (tb DefaultTable) getInjectValueFromFormValue(dataList form.Values) dialect
 			}
 		}
 	}
+
+	logger.Debug("getInjectValueFromFormValue return", value)
+
 	return value
 }
 
