@@ -143,6 +143,16 @@ type TreeAttribute interface {
 	GetTreeHeader() template.HTML
 }
 
+type NestedSetAttribute interface {
+	SetTree(value []menu.NestedSetItem) NestedSetAttribute
+	SetEditUrl(value string) NestedSetAttribute
+	SetOrderUrl(value string) NestedSetAttribute
+	SetUrlPrefix(value string) NestedSetAttribute
+	SetDeleteUrl(value string) NestedSetAttribute
+	GetContent() template.HTML
+	GetTreeHeader() template.HTML
+}
+
 type PaginatorAttribute interface {
 	SetCurPageStartIndex(value string) PaginatorAttribute
 	SetCurPageEndIndex(value string) PaginatorAttribute

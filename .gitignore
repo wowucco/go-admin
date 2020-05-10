@@ -1,4 +1,5 @@
 .idea
+.github
 .DS_Store
 demo/config.json
 demo/config
