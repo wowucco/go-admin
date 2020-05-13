@@ -145,6 +145,7 @@ type TreeAttribute interface {
 
 type NestedSetAttribute interface {
 	SetTree(value []menu.NestedSetItem) NestedSetAttribute
+	SetViewUrl(value string) NestedSetAttribute
 	SetEditUrl(value string) NestedSetAttribute
 	SetOrderUrl(value string) NestedSetAttribute
 	SetUrlPrefix(value string) NestedSetAttribute

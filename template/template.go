@@ -43,6 +43,7 @@ type Template interface {
 	DataTable() types.DataTableAttribute
 
 	Tree() types.TreeAttribute
+	NestedSetTree() types.NestedSetAttribute
 	Tabs() types.TabsAttribute
 	Alert() types.AlertAttribute
 	Link() types.LinkAttribute

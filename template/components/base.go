@@ -151,3 +151,11 @@ func (b Base) Tree() types.TreeAttribute {
 		Attribute: b.Attribute,
 	}
 }
+
+func (b Base) NestedSetTree() types.NestedSetAttribute {
+	return &NestedSetAttribute{
+		Name: "nestedset-tree",
+		Tree: []menu.NestedSetItem{},
+		Attribute: b.Attribute,
+	}
+}

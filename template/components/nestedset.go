@@ -9,6 +9,7 @@ import (
 type NestedSetAttribute struct {
 	Name string
 	Tree []menu.NestedSetItem
+	ViewUrl string
 	EditUrl string
 	DeleteUrl string
 	UrlPrefix string
@@ -18,6 +19,11 @@ type NestedSetAttribute struct {
 
 func (c *NestedSetAttribute) SetTree(value []menu.NestedSetItem) types.NestedSetAttribute {
 	c.Tree = value
+	return c
+}
+
+func (c *NestedSetAttribute) SetViewUrl(value string) types.NestedSetAttribute {
+	c.ViewUrl = value
 	return c
 }
 
@@ -42,9 +48,9 @@ func (c *NestedSetAttribute) SetDeleteUrl(value string) types.NestedSetAttribute
 }
 
 func (c *NestedSetAttribute) GetContent() template.HTML {
-	return ComposeHtml(c.TemplateList, *c, "tree")
+	return ComposeHtml(c.TemplateList, *c, "nestedset-tree")
 }
 
 func (c *NestedSetAttribute) GetTreeHeader() template.HTML {
-	return ComposeHtml(c.TemplateList, *c, "tree-header")
+	return ComposeHtml(c.TemplateList, *c, "nestedset-tree-header")
 }
