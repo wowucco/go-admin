@@ -4,9 +4,7 @@ go 1.13
 
 require (
 	github.com/360EntSecGroup-Skylar/excelize v1.4.1
-	github.com/GoAdminGroup/go-admin v1.2.10 // indirect
 	github.com/GoAdminGroup/html v0.0.1
-	github.com/GoAdminGroup/themes v0.0.26
 	github.com/NebulousLabs/fastrand v0.0.0-20181203155948-6fb6489aac4e
 	github.com/denisenkom/go-mssqldb v0.0.0-20200206145737-bbfc9a55622e
 	github.com/gin-gonic/gin v1.5.0
@@ -16,6 +14,7 @@ require (
 	github.com/kataras/iris/v12 v12.1.8
 	github.com/lib/pq v1.3.0
 	github.com/magiconair/properties v1.8.1
+	github.com/mattn/go-colorable v0.1.6 // indirect
 	github.com/mattn/go-sqlite3 v2.0.3+incompatible
 	github.com/mgutz/ansi v0.0.0-20170206155736-9520e82c474b
 	github.com/natefinch/lumberjack v2.0.0+incompatible

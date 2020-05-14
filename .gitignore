@@ -14,5 +14,9 @@ logs
 adm/build
 template/login/assets/login
 uploads
+
 config.json
 main.go
+pages
+tables
+plugins/product
